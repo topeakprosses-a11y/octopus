@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --color-octopus-black: #050505;
+  --color-octopus-nearblack: #0B0B0D;
+  --color-octopus-charcoal: #171719;
+  --color-octopus-graphite: #252529;
+  --color-octopus-white: #F5F5F3;
+  --color-octopus-silver: #A5A5AA;
+  --color-octopus-border: #303034;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #050505;
+    color: #F5F5F3;
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+    overflow-x: hidden;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Prevent automatic iOS Safari zoom on input focus by guaranteeing 16px font-size */
+  input, select, textarea {
+    font-size: 1rem;
+  }
+  @media (min-width: 640px) {
+    input, select, textarea {
+      font-size: 0.875rem;
+    }
+  }
+
+  /* Focus visible accessibility standard */
+  :focus-visible {
+    outline: 2px solid #F5F5F3;
+    outline-offset: 2px;
+  }
+}
+
+/* Reduced motion preference respect */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Restrained metallic highlight subtle effect */
+.metallic-subtle-glow {
+  background: radial-gradient(80% 60% at 50% 0%, rgba(165, 165, 170, 0.08) 0%, rgba(5, 5, 5, 0) 100%);
+}
+
+.metallic-line-glow {
+  background: linear-gradient(90deg, transparent 0%, rgba(165, 165, 170, 0.3) 50%, transparent 100%);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Octopus — Startup Accelerator",
+  "description": "Octopus is a premium startup accelerator for ambitious founders building enduring companies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

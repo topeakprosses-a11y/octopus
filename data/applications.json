@@ -1,0 +1,41 @@
+[
+  {
+    "id": "OCT-2026-983FB4",
+    "founderName": "Elena Rostova",
+    "email": "elena@neuralflux.ai",
+    "companyName": "NeuralFlux",
+    "companyWebsite": "https://neuralflux.ai",
+    "startupStage": "Pre-Seed",
+    "industry": "Artificial Intelligence & ML",
+    "location": "San Francisco, CA",
+    "shortDescription": "NeuralFlux develops real-time streaming inference accelerators for low-latency foundation models.",
+    "problemStatement": "Large models currently suffer from latency and memory footprint bottlenecks at edge datacenters, causing millisecond lag and astronomical compute costs.",
+    "targetCustomer": "Autonomous robotics, defense inference, and high-frequency real-time financial systems engineers.",
+    "currentProgress": "Working FPGA prototype achieving 4.2x latency reduction on Llama-3-70B with 2 signed enterprise LOIs.",
+    "whyOctopus": "We need Octopus partner expertise in go-to-market scaling, semiconductor ecosystem introductions, and top-tier seed round syndication.",
+    "coFounderInfo": "Dr. Marcus Wei (PhD in Computer Architecture from Stanford, ex-NVIDIA kernel engineer).",
+    "status": "Under Review",
+    "internalNotes": [
+      {
+        "id": "78b7fa59-8703-4c51-870b-9a9200f28d69",
+        "author": "System",
+        "note": "Application received and logged from origin: f17f6efdcf2f3ea1",
+        "createdAt": "2026-10-31T06:00:18.004Z"
+      },
+      {
+        "id": "aad94189-c403-4e09-a3a8-a7c76ccacbcc",
+        "author": "Investment Partner",
+        "note": "Status updated from \"Received\" to \"Under Review\"",
+        "createdAt": "2026-10-31T06:00:56.161Z"
+      },
+      {
+        "id": "80353e74-00b8-413f-ad98-e8d3061f0d78",
+        "author": "Marcus (Technical Partner)",
+        "note": "Strong FPGA architecture background. Validated Stanford publication. Scheduling 30-min deep dive on kernel optimizations.",
+        "createdAt": "2026-10-31T06:01:02.918Z"
+      }
+    ],
+    "createdAt": "2026-10-31T06:00:18.004Z",
+    "updatedAt": "2026-10-31T06:01:02.918Z"
+  }
+]
